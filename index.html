@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="assets/css/style.css"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Reserva de horas</title>
+</head>
+<body>
+    <h1>Reserva de horas médicas</h1>
+    <form class="registrar" onsubmit="return validar();">
+        <div contenedor-inputs>
+            <input type="text" id="rut" name="rut" placeholder="Rut">
+            <input type= "text" id="nombre" name="nombre" placeholder="Nombre">
+            <input type= "text" id="apellido" name="apellido" placeholder="Apellido">
+            <input type="text" id="edad" name="edad" placeholder="Edad">
+            <input type="email" id="correo" name="correo" placeholder="Correo" >
+            <select name="especialidad" id="especialidad">
+                <option value="">-- Seleccione especialidad --</option>
+                <option value="Medicina general">Medicina general</option>
+                <option value="Cardiología">Cardiología</option>
+                <option value="Traumatología">Traumatología</option>
+                <option value="Dental">Dental</option>
+            </select>
+            <input type="text" id="fecha" name="fecha" placeholder="Fecha">
+            <select name="hora" id="hora">
+                <option value="">-- Seleccione hora --</option>
+                <option value="09:00">09:00</option>
+                <option value="09:30">09:30</option>
+                <option value="10:00">10:00</option>
+                <option value="10:30">10:30</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit">Reservar</button>
+        </div>
+    </form>
+    <div id="reservacion"></div>
+  <script src="assets/javascript/script.js"></script>  
+</body>
+</html>

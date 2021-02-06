@@ -1,0 +1,38 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    box-sizing: border-box;
+    background-color:#fff;
+}
+form{
+    background-color: #f9ebea;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+    display: block;
+}
+input {
+    padding: 5px;
+    margin: 2px;
+    border: none;
+    width: 200px;
+}
+select {
+    padding: 5px;
+    margin: 2px;
+    border: none;
+    width: 200px;
+}
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: rgb(211, 152, 198);
+}
+h1 {
+    text-align: center;
+}
